@@ -1,5 +1,7 @@
 # availity-uikit
 
+> Preliminary update to Bootstrap 4
+
 > Availity UI Kit powered by Bootstrap 3
 
 ## Table of Contents
