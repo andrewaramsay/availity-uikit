@@ -1,0 +1,108 @@
+// http://lesscss.org/features/#variables-feature-import-statements
+
+// SCSS has an issue when it comes to URIs in variables
+$bootstrap-scss-path: "../bower_components/bootstrap/scss";
+$yamm-less-path: "../bower_components/yamm3/yamm";
+
+// Fonts
+@import "$bootstrap-scss-path/variables.scss";
+@import "@{bootstrap-scss-path}/mixins.scss";
+@import "availity-variables.scss";
+@import "availity-mixins.scss";
+@import "availity-icon-fonts.scss";
+
+// Reset and dependencies
+@import "@{bootstrap-scss-path}/normalize.scss";
+@import "@{bootstrap-scss-path}/print.scss";
+
+// Core CSS
+@import "@{bootstrap-scss-path}/scaffolding.scss";
+@import "availity-scaffolding.scss";
+@import "@{bootstrap-scss-path}/type.scss";
+@import "availity-type.scss";
+@import "@{bootstrap-scss-path}/code.scss";
+@import "availity-grid.scss";
+@import "@{bootstrap-scss-path}/grid.scss";
+@import "@{bootstrap-scss-path}/tables.scss";
+@import "availity-tables.scss";
+@import "@{bootstrap-scss-path}/forms.scss";
+@import "availity-forms.scss";
+@import "@{bootstrap-scss-path}/buttons.scss";
+@import "availity-buttons.scss";
+
+// Components
+@import "@{bootstrap-scss-path}/component-animations.scss";
+@import "@{bootstrap-scss-path}/dropdowns.scss";
+@import "availity-dropdowns.scss";
+@import "@{bootstrap-scss-path}/button-groups.scss";
+@import "availity-button-groups.scss";
+@import "@{bootstrap-scss-path}/input-groups.scss";
+@import "@{bootstrap-scss-path}/navs.scss";
+@import "availity-navs.scss";
+@import "@{bootstrap-scss-path}/navbar.scss";
+@import "availity-navbar.scss";
+@import "@{bootstrap-scss-path}/breadcrumbs.scss";
+@import "availity-breadcrumbs.scss";
+@import "@{bootstrap-scss-path}/pagination.scss";
+@import "availity-pagination.scss";
+@import "@{bootstrap-scss-path}/pager.scss";
+@import "@{bootstrap-scss-path}/labels.scss";
+@import "availity-labels.scss";
+@import "@{bootstrap-scss-path}/badges.scss";
+@import "availity-badges.scss";
+@import "@{bootstrap-scss-path}/jumbotron.scss";
+@import "@{bootstrap-scss-path}/thumbnails.scss";
+@import "@{bootstrap-scss-path}/alerts.scss";
+@import "@{bootstrap-scss-path}/progress-bars.scss";
+@import "availity-progress-bars.scss";
+@import "@{bootstrap-scss-path}/media.scss";
+@import "availity-media.scss";
+@import "@{bootstrap-scss-path}/list-group.scss";
+@import "availity-list-group.scss";
+@import "@{bootstrap-scss-path}/panels.scss";
+@import "availity-panel.scss";
+@import "availity-cards.scss";
+@import "@{bootstrap-scss-path}/responsive-embed.scss";
+@import "@{bootstrap-scss-path}/wells.scss";
+@import "@{bootstrap-scss-path}/close.scss";
+@import "availity-filter.scss";
+
+@import "availity-help.scss";
+
+// Additional
+@import "availity-app-icons.scss";
+@import "availity-footer.scss";
+@import "availity-columns.scss";
+@import "availity-layouts.scss";
+@import "@{yamm-less-path}/yamm.scss";
+@import "availity-mega-menu.scss";
+@import "availity-dropdowns-extended.scss";
+@import "availity-wizard.scss";
+
+// Components w/ JavaScript
+@import "@{bootstrap-scss-path}/modals.scss";
+@import "availity-modal.scss";
+@import "@{bootstrap-scss-path}/tooltip.scss";
+@import "availity-tooltip.scss";
+@import "@{bootstrap-scss-path}/popovers.scss";
+@import "availity-popovers.scss";
+@import "@{bootstrap-scss-path}/carousel.scss";
+@import "availity-loading.scss";
+
+// 3rd party w/ Javscript
+@import "availity-external-libs.scss";
+
+// 3rd party overrides
+@import "availity-select2.scss";
+
+// Utility classes
+@import "@{bootstrap-scss-path}/utilities.scss";
+@import "@{bootstrap-scss-path}/responsive-utilities.scss";
+
+// Spaces
+@import "availity-spaces.scss";
+
+// Column Layouts
+@import "availity-col-ms.scss";
+
+
