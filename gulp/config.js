@@ -18,6 +18,13 @@ module.exports = {
     destMaps: './maps', // relative to dest folder
     browsers: ['> 1%', 'last 3 versions', 'ie 8', 'ie 9']
   },
+  sass: {
+    src: ['scss/availity-uikit.scss', 'scss/pages/docs.scss'],
+    targets: ['**/*.scss'],
+    dest: 'build/guide/css',
+    destMaps: './maps', // relative to dest folder
+    browsers: ['> 1%', 'last 3 versions', 'ie 8', 'ie 9']
+  },
   css: {
     src: 'build/guide/**/*.css',
     dest: 'dist/css',
