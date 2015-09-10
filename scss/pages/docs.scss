@@ -107,12 +107,12 @@ blockquote {
 }
 
 .guide-block-text-medium {
-  &:extend(.guide-block-text);
+  @extend .guide-block-text;
   width: 80%;
 }
 
 .guide-block-text-small {
-  &:extend(.guide-block-text);
+  @extend .guide-block-text;
   width: 60%;
 }
 
@@ -188,7 +188,7 @@ $color-item-height: 100px;
 
 //== Icons
 //
-.i-name, i-code {
+.i-name, .i-code {
   display: block;
 }
 .i-code {
