@@ -1,7 +1,7 @@
 {
   "name": "availity-uikit",
   "description": "Availity UI Kit powered by Bootstrap 3",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "license": "MIT",
   "keywords": [
     "availity",
@@ -26,8 +26,6 @@
     "jquery": ">=1.9.1 <2.0.0",
     "bootstrap": "3.3.4",
     "yamm3": "1.1.0",
-    "typeahead.js": "0.11.1",
-    "typeahead.js-bootstrap3.less": "0.2.3",
     "chartjs": "1.0.2",
     "ExplorerCanvas": "*",
     "select2": "3.5.2",
