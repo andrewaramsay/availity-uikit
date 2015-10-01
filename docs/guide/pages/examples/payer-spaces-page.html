@@ -6,7 +6,7 @@ menu: 6
 shortName: PSD
 icon: blue
 ---
-<main class="container">
+<div class="container">
 
   <ul class="breadcrumb">
     <li>
@@ -17,27 +17,34 @@ icon: blue
     </li>
   </ul>
 
-  <div class="spaces">
-    <div class="spaces-header">
-      <div class="spaces-header-col spaces-header-col-left">
-        <a href="http://www.example.com" class="spaces-logo holderjs">
-        </a>
-      </div>
-      <div class="spaces-header-col spaces-header-col-right">
-        <a href="http://www.example.com" class="spaces-link"> www.example.com</a>
-      </div>
+
+  <div class="spaces-header">
+    <div class="spaces-header-col spaces-header-col-left">
+      <a href="http://www.example.com" class="spaces-logo holderjs">
+      </a>
     </div>
-    <div class="billboard">
-      <div class="col-sm-4 billboard-featured">
+    <div class="spaces-header-col spaces-header-col-right">
+      <a href="http://www.example.com" class="spaces-link"> www.example.com</a>
+    </div>
+  </div>
+
+  <div class=" billboard container-sm-height">
+    <div class="row row-sm-height">
+      <div class="billboard-featured col-sm-4 col-sm-height">
         <div class="card card-block">
           <h2 class="card-title">Fee Schedule</h2>
-          <h3>This new space is just for you</h3>
-          <p class="card-text">Fee Schedules retrieves your contracted price information for the patient services you perform</p>
+          <h3 data-mock="sentence:1">This new space is just for you</h3>
+          <p class="card-text" data-mock="paragraph:1">Fee Schedules retrieves your contracted price information for the patient services you perform</p>
           <p>
             <a class="btn btn-lg btn-default btn-billboard" href="payer-spaces.html">Access »</a>
           </p>
         </div>
       </div>
+
+      <div class="billboard-display col-sm-8 col-sm-height hidden-ms hidden-xs">
+
+      </div>
+
     </div>
   </div>
 
@@ -63,7 +70,7 @@ icon: blue
                 <div class="card">
                   <div class="card-block">
                     <h3 class="card-title">835 Registration</h3>
-                    <p class="card-text" data-mock="sentence:1"></p>
+                    <p class="card-text" data-mock="sentences:1"></p>
                     <button type="button" class="btn btn-default">Access »</button>
                   </div>
                 </div>
@@ -73,7 +80,7 @@ icon: blue
               <div class="card">
                 <div class="card-block">
                     <h3 class="card-title">Eligibility &amp; Benefits</h3>
-                    <p class="card-text" data-mock="sentence:1"></p>
+                    <p class="card-text" data-mock="sentences:4"></p>
                     <button type="button" class="btn btn-default">Access »</button>
                   </div>
                 </div>
@@ -83,10 +90,37 @@ icon: blue
                 <div class="card">
                   <div class="card-block">
                     <h3 class="card-title">Provider Registration &amp; Self-Service</h3>
-                    <p class="card-text" data-mock="sentence:1"></p>
+                    <p class="card-text" data-mock="sentences:5"></p>
                     <button type="button" class="btn btn-default">Access »</button>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-sm-height">
+            <div class="row row-sm-height">
+              <div class="col-sm-4 col-sm-height">
+                <div class="card">
+                  <div class="card-block">
+                    <h3 class="card-title">Fee Schedule</h3>
+                    <p class="card-text" data-mock="sentences:2"></p>
+                    <button type="button" class="btn btn-default">Access »</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-sm-height">
+              <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Remits</h3>
+                    <p class="card-text" data-mock="sentences:3"></p>
+                    <button type="button" class="btn btn-default">Access »</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-sm-height">
+                &nbsp;
               </div>
             </div>
           </div>
@@ -104,6 +138,7 @@ icon: blue
                 <h4 class="list-group-item-heading list-group-item-result-heading">AIM Specialty Health ™</h4>
                 <p class="list-group-item-text text-muted">Radiology Quality Initiative</p>
               </a>
+
             </div>
           </div>
         </div>
@@ -112,5 +147,5 @@ icon: blue
         </div>
       </div>
     </div>
-</main>
+</div>
 
